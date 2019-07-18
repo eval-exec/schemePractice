@@ -1,2 +1,3 @@
 #lang scheme
-(display ( add1   2 ) )
+(display (filter even? '(1 2 3 4)))
+
