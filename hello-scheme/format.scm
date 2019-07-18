@@ -1,7 +1,9 @@
-(define str (format #t "~a can be ~a" "strings" "formatted"))
-str
+; (define str (format #t "~a can be ~a" "strings" "formatted"))
+; str
 
-str
+; str
 
 (define soneVal 5)
-soneVal
+(display soneVal)
+(let (me "alice")
+    ("bobll")me)
