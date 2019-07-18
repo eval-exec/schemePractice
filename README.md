@@ -1,4 +1,4 @@
-# slarsar's scheme practice
+# slarsar's scheme programing practice
 
 ## exercism scheme track 
 https://exercism.io/my/tracks/scheme   
@@ -10,7 +10,13 @@ https://web-artanis.com/scheme.html
 
 
 ## scheme compiler
-guile
+### racket
+```
+$ racket --version
+Welcome to Racket v7.3.
+```
+
+### guile
 ```
 $ guile --version
 guile (GNU Guile) 2.2.5
