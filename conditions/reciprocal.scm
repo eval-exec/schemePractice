@@ -6,3 +6,7 @@
 	(/ 1 n))))
 (display (reciprocal 2))
 (newline)
+
+(display ((lambda (x) (if #f `feafea `false)  )  `222))
+(newline)
+
