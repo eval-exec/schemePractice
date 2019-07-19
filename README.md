@@ -3,6 +3,8 @@
 ## exercism scheme track 
 https://exercism.io/my/tracks/scheme   
 
+## debugging in scheme
+http://www.cs.toronto.edu/~sheila/324/w07/assns/A3/debug.pdf
 
 
 ## learn scheme in 15 minutes
