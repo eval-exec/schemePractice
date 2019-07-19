@@ -8,6 +8,11 @@ https://exercism.io/my/tracks/scheme
 ## learn scheme in 15 minutes
 https://web-artanis.com/scheme.html
 
+## learn scheme in offical website
+https://www.scheme.com/
+
+## scheme learning resource
+https://www.scheme.com/tspl4/
 
 ## scheme compiler
 ### racket
