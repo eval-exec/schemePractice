@@ -9,10 +9,16 @@
 	  (+ 0 (hamming-distance (list->string (cdr (string->list list1))) (list->string  (cdr (string->list list2)))))
 	  (+ 1 (hamming-distance (list->string (cdr (string->list list1))) (list->string  (cdr (string->list list2)))))))
 
-       #t) 
+      (strerror #t))
 
     ))
 
 
 ;(display (hamming-distance "abcd" "abed"))
 ;(newline)
+;display (string-length "AGACAACAGCCAGCCGCCGGATT"))
+;newline)
+;display (string-length "AGGCAA"))
+;newline)
+;
+;display (= (string-length "AGACAACAGCCAGCCGCCGGATT") (string-length "AGGCAA")))
