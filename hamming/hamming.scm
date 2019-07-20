@@ -2,14 +2,17 @@
   #:export (hamming-distance))
 (define hamming-distance
   (lambda (list1 list2)
-    (
-     if (equal? list1 '())
+   (if (= (string-length list1) (string-length list2))
+    (if (string=? list1 "")
      0
-     (if (equal? (car (string-list list1)) (car (string-list list2)))
-	  (+ 0 (hamming-distance (list-string )(cdr list1) (cdr list2)))
-	  (+ 1 (hamming-distance (cdr list1) (cdr list2)))
-	  ))))
+     (if (equal? (car (string->list list1)) (car (string->list list2)))
+	  (+ 0 (hamming-distance (list->string (cdr (string->list list1))) (list->string  (cdr (string->list list2)))))
+	  (+ 1 (hamming-distance (list->string (cdr (string->list list1))) (list->string  (cdr (string->list list2)))))))
+
+       #t) 
+
+    ))
 
 
-(display (hamming-distance ACD ABD))
-(newline)
+;(display (hamming-distance "abcd" "abed"))
+;(newline)
